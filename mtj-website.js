@@ -30,12 +30,16 @@ form.addEventListener("submit", (e) => {
     error.style.color = "white";
     error.style.fontSize = "18px";
   } else {
-    error.textContent = "submitting...."
+    e.preventDefault();
+    error.textContent = "submitting....";
+    
+    
 
     setTimeout(() => {
       error.textContent = "You have successfully submitted";
+      error.style.color = "green";
       form.reset();
-    }, 3000)
+    }, 3000);
   }
    
 })
