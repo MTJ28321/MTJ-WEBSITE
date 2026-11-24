@@ -448,6 +448,7 @@ button {
   background: rgb(253, 222, 125);
   font-weight: 600;
   text-transform: capitalize;
+  cursor: pointer;
   }
 }
 
