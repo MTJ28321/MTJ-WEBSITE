@@ -23,11 +23,12 @@ navBar.querySelectorAll("a").forEach(link => {
 
 // FOR FORM VALIDATION
 
-form.addEventListener("submit", () => {
-  e.preventDefault();
-  if(name.value.trim() || email.value.trim() || company.value.trim() || textArea.value.trim() === "") {
+form.addEventListener("submit", (e) => {
+  if(name.value.trim() === "" || email.value.trim() === "" || company.value.trim() === "" || textArea.value.trim() === "") {
+    e.preventDefault();
     error.textContent = "Oga ade! Go back and fill the form";
     error.style.color = "white";
+    error.style.fontSize = "18px";
   }
 })
 
