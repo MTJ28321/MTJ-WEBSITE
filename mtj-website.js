@@ -2,6 +2,7 @@ const menuToggle = document.getElementById("menu-toggle");
 
 
 
+
 menuToggle.addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
