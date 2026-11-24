@@ -5,6 +5,7 @@ const email = document.getElementById("email");
 const company = document.getElementById("company");
 const textArea = document.getElementById("text-area");
 const submitBtn = document.getElementById("submit-btn");
+const error = document.getElementById("Error");
 
 
 //FOR TOGGLE PAGE
@@ -14,11 +15,17 @@ menuToggle.addEventListener("click", () => {
 
 navbar.querySelectorAll("a").forEach(link => {
   link.addEventListener("click", () => {
-    navBar.classList.remove("active");
+    navbar.classList.remove("active");
   });
 });
 
 // FOR FORM VALIDATION
 
-
+form.addEventListener("submit", () => {
+  e.preventDefault();
+  if(name.value.trim() || email.value.trim() || company.value.trim() || textArea.value.trim() === "") {
+    error.textContent = "Oga ade! Go back and fill the form";
+    error.style.color = "white";
+  }
+})
 
