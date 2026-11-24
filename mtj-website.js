@@ -1,8 +1,8 @@
 const menuToggle = document.getElementById("menu-toggle");
 const FormValidation = document.getElementById("form");
 const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form")
-const FormValidation = document.getElementById("form")
+const FormValidation = document.getElementById("form");
+const FormValidation = document.getElementById("form");
 const FormValidation = document.getElementById("form")
 
 
