@@ -3,6 +3,7 @@ const FormValidation = document.getElementById("form");
 
 
 
+
 menuToggle.addEventListener("click", () => {
   navbar.classList.toggle("active");
 });
