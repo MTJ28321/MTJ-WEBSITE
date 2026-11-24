@@ -29,6 +29,14 @@ form.addEventListener("submit", (e) => {
     error.textContent = "Oga ade! Go back and fill the form";
     error.style.color = "white";
     error.style.fontSize = "18px";
+  } else {
+    error.textContent = "submitting...."
+
+    setTimeout(() => {
+      error.textContent = "You have successfully submitted";
+      form.reset();
+    }, 3000)
   }
+   
 })
 
