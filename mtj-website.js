@@ -10,3 +10,4 @@ navbar.querySelectorAll("a").forEach(link => {
     navBar.classList.remove("active");
   });
 });
+
