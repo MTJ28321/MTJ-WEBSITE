@@ -1,4 +1,5 @@
 const menuToggle = document.getElementById("menu-toggle");
+const name = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
 const company = document.getElementById("company");
