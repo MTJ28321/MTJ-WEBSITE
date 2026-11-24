@@ -1,4 +1,6 @@
 const menuToggle = document.getElementById("menu-toggle");
+const navBar = document.getElementById("navbar");
+
 const form = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
@@ -10,12 +12,12 @@ const error = document.getElementById("Error");
 
 //FOR TOGGLE PAGE
 menuToggle.addEventListener("click", () => {
-  navbar.classList.toggle("active");
+  navBar.classList.toggle("active");
 });
 
-navbar.querySelectorAll("a").forEach(link => {
+navBar.querySelectorAll("a").forEach(link => {
   link.addEventListener("click", () => {
-    navbar.classList.remove("active");
+    navBar.classList.remove("active");
   });
 });
 
