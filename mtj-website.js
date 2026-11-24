@@ -3,7 +3,7 @@ const FormValidation = document.getElementById("form");
 const FormValidation = document.getElementById("form");
 const FormValidation = document.getElementById("form");
 const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form")
+const FormValidation = document.getElementById("form");
 
 
 
