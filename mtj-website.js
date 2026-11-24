@@ -1,9 +1,9 @@
 const menuToggle = document.getElementById("menu-toggle");
-const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form");
-const FormValidation = document.getElementById("form");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const company = document.getElementById("company");
+const textArea = document.getElementById("text-area");
+const submitBtn = document.getElementById("submit-btn");
 
 
 
@@ -16,4 +16,6 @@ navbar.querySelectorAll("a").forEach(link => {
     navBar.classList.remove("active");
   });
 });
+
+
 
