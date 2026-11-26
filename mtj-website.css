@@ -745,7 +745,8 @@ button {
   font-size: 50px;
   }
 
-.error p {
+.error {
+  display: block;
   font-size: 200px;
   }
 }
