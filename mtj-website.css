@@ -450,6 +450,11 @@ button {
   text-transform: capitalize;
   cursor: pointer;
   }
+
+.error {
+  display: block;
+  font-size: 20px;
+}
 }
 
 .footer {
