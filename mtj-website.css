@@ -744,6 +744,10 @@ button {
   height: 100px;
   font-size: 50px;
   }
+
+.erro {
+  font-size: 20px;
+  }
 }
 
 
