@@ -718,6 +718,10 @@ p {
 .form-content {
   width: 100%;
   display: flex;
+
+  .error p {
+  font-size: 1000px;
+  }
 }
 
   form {
@@ -743,10 +747,6 @@ p {
 button {
   height: 100px;
   font-size: 50px;
-  }
-
-.error p {
-  font-size: 1000px;
   }
 }
 
