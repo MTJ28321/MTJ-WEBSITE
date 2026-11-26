@@ -718,10 +718,6 @@ p {
 .form-content {
   width: 100%;
   display: flex;
-
-  .error p {
-  font-size: 1000px;
-  }
 }
 
   form {
