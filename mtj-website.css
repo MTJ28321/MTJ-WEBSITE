@@ -747,6 +747,7 @@ button {
 
 .error {
   font-size: 200px;
+  background: grey;
   }
 }
 
