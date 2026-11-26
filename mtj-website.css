@@ -748,9 +748,10 @@ button {
 .error {
   font-size: 200px;
   background: grey;
+
+p {
+    font-size: 1000px;
   }
-  p {
-    font-size: 100px;
   }
 }
 
