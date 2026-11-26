@@ -36,7 +36,7 @@ form.addEventListener("submit", (e) => {
     
 
     setTimeout(() => {
-      error.textContent = "You have successfully submitted";
+      error.textContent = "Your massage is successfully received";
       error.style.color = "green";
       
       form.reset();
